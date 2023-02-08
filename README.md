@@ -1,8 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js 13 Starter
+
+**This Next.js 13 starter repo is designed to help spin up new projects quickly.**
+
+This is the starter repo I use for my own projects. A solid foundation of popular technologies (NextJS, TypeScript, Tailwind CSS) means you can focus on building the features that matter most to your project right away.
+
+I've purposfully left it relatively lightweight, so you can add what you need as you go.
+
+## Tech Stack
+
+|                    |                  |
+| ------------------ | ---------------- |
+| :heavy_check_mark: | Next.js 13       |
+| :heavy_check_mark: | TypeScript       |
+| :heavy_check_mark: | Tailwind CSS     |
+| :heavy_check_mark: | Next-SEO         |
+| :heavy_check_mark: | Next-Sitemap     |
+| :heavy_check_mark: | React-Icons      |
+| :heavy_check_mark: | Semantic-Release |
+| :heavy_check_mark: | Commitizen       |
+| :heavy_check_mark: | Commitlint       |
+| :heavy_check_mark: | Husky            |
+| :heavy_check_mark: | Lint-Staged      |
+| :heavy_check_mark: | Prettier         |
+| :heavy_check_mark: | ESLint           |
 
 ## Getting Started
 
-First, run the development server:
+```
+1. Clone this repository
+2. npm install in project
+```
+
+## Run development server
 
 ```bash
 npm run dev
@@ -14,25 +43,14 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Why no test tooling?
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+I specifically didn't include some packages in order to keep this project lightweight and versatile. This makes it a bit more flexible and allows you to add what you need while still giving you a solid front end baseline.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Contributions are welcome! Please open an issue or submit a pull request.
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License.
